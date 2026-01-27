@@ -277,6 +277,45 @@ h5 {
   font-size: 1rem;
 }
 
+/* ---------- Intake Form Extras ---------- */
+
+.contact-form select {
+  background-color: #5a0000;
+  border: 2px solid #E5C100;
+  color: #E5C100;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form select option {
+  background-color: #5a0000;
+  color: #E5C100;
+}
+
+.contact-form h3 {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #E5C100;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: normal;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  accent-color: #E5C100; /* supported in modern browsers */
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) and (orientation: portrait) {
     /* Stack container vertically */
