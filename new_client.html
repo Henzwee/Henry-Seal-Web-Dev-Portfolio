@@ -16,13 +16,7 @@
 <body>
   <div id="main-content" style="opacity: 1;">
     <div class="container">
-      <!-- Left column: matches your nav column width -->
-      <div class="buttons">
-        <a class="nav-button" href="index.html">Home</a>
-        <a class="nav-button active" href="#">Client Intake</a>
-      </div>
 
-      <!-- Right column -->
       <div class="text-content active">
         <h1>New Client Intake Form</h1>
 
@@ -154,13 +148,6 @@
           <p class="form-status" id="form-status" aria-live="polite"></p>
         </form>
 
-        <section id="success-panel" style="display:none; margin-top: 1.25rem;">
-          <h3>Submitted!</h3>
-          <p>
-            Thanks — I received your info. I’ll review it and follow up with final pricing and your first invoice.
-          </p>
-          <a class="nav-button" href="index.html" style="display:inline-block;">Back to Home</a>
-        </section>
       </div>
     </div>
   </div>
@@ -217,9 +204,9 @@
         });
 
         if (response.ok) {
-          form.style.display = "none";
-          successPanel.style.display = "block";
-          statusEl.textContent = "";
+          window.location.href = "form_completion.html";
+        }
+
         } else {
           let msg = "Something went wrong. Please try again or contact me directly.";
           try {
