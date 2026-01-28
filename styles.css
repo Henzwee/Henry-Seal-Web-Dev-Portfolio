@@ -327,6 +327,18 @@ h5 {
   margin-top: 10px;
 }
 
+/* ---------- Centered Single-Column Pages (Intake / Completion) ---------- */
+
+.single-column {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.single-column .text-content {
+  width: 100%;
+}
+
 
 /* Mobile Styles */
 @media (max-width: 768px) and (orientation: portrait) {
