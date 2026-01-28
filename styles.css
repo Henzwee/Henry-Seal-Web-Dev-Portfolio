@@ -316,6 +316,18 @@ h5 {
   accent-color: #E5C100; /* supported in modern browsers */
 }
 
+/* Extra spacing for conditional sections (e-commerce / domain) */
+.sub-section {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 2px solid rgba(229, 193, 0, 0.35);
+}
+
+.sub-section label {
+  margin-top: 10px;
+}
+
+
 /* Mobile Styles */
 @media (max-width: 768px) and (orientation: portrait) {
     /* Stack container vertically */
