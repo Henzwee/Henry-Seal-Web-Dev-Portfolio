@@ -323,9 +323,18 @@ h5 {
   border-top: 2px solid rgba(229, 193, 0, 0.35);
 }
 
-.sub-section label {
-  margin-top: 10px;
+/* Add breathing room inside conditional sections */
+.sub-section > label {
+  margin-top: 20px;
 }
+
+.sub-section > input,
+.sub-section > select,
+.sub-section > textarea {
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
 
 /* ---------- Centered Single-Column Pages (Intake / Completion) ---------- */
 
