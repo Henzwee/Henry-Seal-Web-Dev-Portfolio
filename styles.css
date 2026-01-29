@@ -372,8 +372,9 @@ h5 {
         width: 100%;
     }
     
-    /* Lock scrolling on mobile during loading screens */
-    body {
-        overflow: hidden;
-    }
+    /* Scroll lock ONLY when explicitly enabled */
+    body.no-scroll {
+      overflow: hidden;
+      height: 100vh;
+}
 }
